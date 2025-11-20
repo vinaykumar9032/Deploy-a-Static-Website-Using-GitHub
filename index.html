@@ -3,42 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>John Doe - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Web Developer & Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
-        <section id="home">
-            <h2>Home Section</h2>
-            <p>This is my static website hosted on GitHub Pages!</p>
-        </section>
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This section can contain information about you or your project.</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: your.email@example.com</p>
-        </section>
-    </main>
-    
+
+    <section id="hero">
+        <div class="container">
+            <h2>Building Digital Experiences</h2>
+            <p>I create beautiful and functional websites</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Description of your first project</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Description of your second project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 John Doe. Built with GitHub Pages.</p>
+        </div>
     </footer>
-    
-    <script src="script.js"></script>
 </body>
 </html>
